@@ -50,7 +50,7 @@ function animation() {
 
     // Style elements
     $( 'p' ).css({margin:0, 'font-family':'arial', 'font-weight':'bold', 'font-size':'11' + 'px', 'margin-bottom':'2' + 'px'});
-    $( '#infoBox' ).css({top: startYvalue, left: startXvalue, height: 1, width: 1, position:'absolute', backgroundColor: 'red', overflow:'visible', backgroundColor: 'rgba(0,200,150,0.6)', zIndex: '99999999'});
+    $( '#infoBox' ).css({top: startYvalue, left: startXvalue, height: 1, width: 1, position:'absolute', backgroundColor: 'red', overflow:'visible', backgroundColor: 'rgba(0,200,150,0.75)', zIndex: '99999999'});
     $( '#yValueInfo, #xValueInfo' ).css({padding:5, position:'absolute', backgroundColor: 'rgba(255,255,255,0.8)'});
     $( '#yValueInfo p, #xValueInfo p' ).append( '1px' );
     // ensure 'X and Y' info boxes stay positioned correctly
